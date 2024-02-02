@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel López">
+    <meta name="description" content="Este es mi primer intento creando un portfolio para más adelante">
+    <meta name="keywords" content="portfolio, html, css, trainee">
+    <title>Mi Primer Portfolio</title>
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de estilos personalizado -->
+    <link rel="stylesheet" href="https://fontawesome.com/icons/envelope?f=classic&s=regular"> <!-- Enlace a FontAwesome para el ícono de sobre -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Montserrat -->
+</head>
+<body>
+    <header>
+        <img 
+        id="img-icon" 
+        src="img/icon.jpg" 
+        alt="Icono principal del portfolio"
+        >
+        <!-- Encabezado de la página -->
+        <nav id="navbar">
+            <!-- Barra de navegación -->
+            <a href="#acerca-de-mi"><span class="subrayado-nav">Acerca de mí</span></a>
+            <a href="#habilidades"><span class="subrayado-nav">Habilidades</span></a>
+            <a href="#servicios"><span class="subrayado-nav">Servicios</span></a>
+            <a href="#contacto"><span class="subrayado-nav">Contacto</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <article id="acerca-de-mi">
+            <!-- Hablando un poco acerca de mí -->
+            <h2>Hola, mi nombre es Daniel</h2>
+            <h1>Soy Desarrollador Backend.</h1>
+            <p>Me dedico a estudiar de manera autodidacta para convertirme en <span class="subrayado">un profesional</span> en el ámbito de <span class="subrayado">la programación backend</span>. <br>
+                Estoy comprometido a adquirir <span class="subrayado">las habilidades</span> necesarias, explorando diversas fuentes de aprendizaje.</p>
+        </article>
+    </main>
+
+    <section>
+        
+        <article id="habilidades">
+            <!-- Mis actuales habilidades -->
+            <div class="contenido-habilidades-html">
+                <h2 class="titulosh2">Mis Habilidades</h2>
+                <h3 class="titulosh3">HTML</h3>
+                <p>Actualmente, cuento con habilidades sólidas en HTML, lo que me permite estructurar de manera semántica el contenido de las páginas web. Mi conocimiento incluye la implementación de etiquetas y atributos para crear interfaces intuitivas y accesibles. Estoy comprometido a profundizar en este lenguaje de marcado y explorar sus capacidades avanzadas para desarrollar sitios web eficientes y bien estructurados.</p>
+                <img class="img-habilidades" src="img/logohtml.jpg" alt="Logo de HTML5">
+            </div>
+            <div class="contenido-habilidades-css">
+                <h3 class="titulosh3">CSS</h3>
+                <p>Mis habilidades en CSS me permiten estilizar de manera efectiva los elementos HTML, creando interfaces visuales atractivas y funcionales. Tengo experiencia en la aplicación de estilos mediante reglas CSS, incluyendo selectores, propiedades y valores para lograr diseños responsivos y agradables estéticamente. Estoy comprometido a seguir mejorando mis habilidades en CSS, explorando nuevas técnicas y tendencias en diseño web para crear experiencias de usuario impactantes y modernas.</p>
+                <img class="img-habilidades" src="img/logocss.jpg" alt="Logo de CSS3">
+            </div>
+        </article>
+
+        <div id="servicios"><h2>Mis Servicios</h2></div>
+        <article id="container-servicios">
+            <!-- Los actuales servicios que puedo ofrecer -->
+            <div class="contenido-servicios">
+                <h3>Plan 1</h3>
+                <p>Te estructuro tu página web con HTML</p>
+                <p>HTML</p>
+            </div>
+            <div class="contenido-servicios" id="plan2">
+                <h3>Plan 2</h3>
+                <p>Añado estilo y estructuro tu página web con HTML y CSS</p>
+                <p>HTML y CSS</p>
+            </div>
+            <div class="contenido-servicios">
+                <h3>Plan 3</h3>
+                <p>Añado estilo a tu página web con CSS</p>
+                <p>CSS</p>
+            </div>
+        </article>
+
+    </section>
+
+    <footer>
+        <!-- Pie de página -->
+        <!-- Apartado para contactarme -->
+        <article id="contacto">
+            <div id="icons">
+                <!-- Iconos de redes sociales -->
+                <a href="https://github.com/ddanii-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/ddanii_dev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/danii.developer/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:daniel.lopez.developer@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </article>
+        <p>&copy; 2024 Mi Primer Portfolio</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/08b52d9de8.js" crossorigin="anonymous"></script> <!-- Enlace al kit de FontAwesome -->
+
+</body>
+</html>
+

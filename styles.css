@@ -1,0 +1,247 @@
+body, html {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Encabezado de la página */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Icono/logo de la página */
+#img-icon {
+    width: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+/* Barra de navegación */
+#navbar {
+    display: flex;
+    padding-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+/* Estilo de subrayado para la barra de navegación */
+.subrayado-nav {
+    position: relative;
+}
+
+.subrayado-nav::after {
+    content: "";
+    position: absolute;
+    bottom: -14px; /* Ajusta la distancia entre el texto y el subrayado */
+    left: 0;
+    width: 100%;
+    height: 6px; /* Ajusta la altura del rectángulo */
+    background-color: rgba(128, 0, 128, 0.7); /* Color del rectángulo con transparencia */
+    z-index: 1;
+}
+
+.subrayado-nav:hover::after {
+    background-color: rgba(128, 0, 128, 1);
+}
+
+/* Contenido Main */
+main {
+    display: flex;
+    margin-left: 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main h1 {
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+main h2 {
+    margin: 0;
+    margin-top: 100px;
+    color: rgba(128, 0, 128, 0.8)
+}
+
+main p {
+    font-size: 1.6rem;
+    margin-right: 100px;
+    margin-bottom: 120px;
+}
+
+.subrayado {
+    position: relative;
+}
+  
+  .subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Ajusta la distancia entre el texto y el subrayado */
+    left: 0;
+    width: 100%;
+    height: 11px; /* Ajusta la altura del rectángulo */
+    background-color: rgba(128, 0, 128, 0.4); /* Color del rectángulo con transparencia */
+    z-index: 0; /* Para que el rectángulo esté detrás del texto */
+}
+
+/* Cards para todas las secciones */
+/* Mis habilidades */
+
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid lightgray;
+	box-shadow: -12px 0 20px -12px rgba(173, 0, 177, 0.4), 12px 0 20px -12px rgba(173, 0, 177, 0.4);
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-color: rgba(173, 0, 177, 0.3);
+}
+
+.img-habilidades {
+    display: block;
+    margin: auto;
+    height: 120px;
+    padding-bottom: 33.200px;
+}
+
+.titulosh2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.titulosh3 {
+    font-size: 1.8em;
+    margin-left: 60px;
+    color: rgba(128, 0, 128, 0.8);
+}
+
+article div p {
+    font-size: 1.25em;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Servicios */
+
+#servicios {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+
+#container-servicios {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenido-servicios {
+    display: grid;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 450px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px rgba(173, 0, 177, 0.5);
+}
+
+#plan2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 25px rgba(173, 0, 177, 0.85);
+}
+
+.contenido-servicios h3 {
+    margin-top: 80px;
+    margin-bottom: -45px;
+    font-size: 1.5em;
+}
+
+.contenido-servicios p {
+    text-align: center;
+}
+
+.contenido-servicios p:nth-child(3) {
+    color: grey;
+    margin-top: -60px;
+    font-size: 20px;
+    margin-bottom: -100px;
+}
+
+.contenido-servicios p:nth-child(2) {
+    margin-top: 88px;
+    margin-bottom: 88px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ad00b1;
+}
+
+/* Pie de la página web */
+#contacto {
+    display: flex;
+    margin-top: 80px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #000000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#icons {
+    font-size: 30px;
+}
+
+#icons i:not(:last-child) {
+    margin-right: 10px; /* Ajusta el margen entre los iconos según sea necesario */
+}
+
+footer p {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 34px;
+    background-color: #000000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#icons a {
+    text-decoration: none;
+    color: inherit;
+}
